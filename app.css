@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #f3f3f3; */
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+
+h1 {
+    font-size: 2.5rem;
+    color: #fd5f00;
+    margin: 0;
+}
+  
+  .subtitle,
+  nav a {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #05004e;
+    padding: 0.8em 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+  
+nav a:hover,
+nav a:focus {
+    color: #fd5f00;
+}
+  
+    
+@media (max-width: 640px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container-nav {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+
+    
+}
+
+.hero {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.text{
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-img img {
+
+    width: 890px;
+    height: 840px;
+
+    
+}
+
+.hero .text p{
+    font-size: 40px;
+    margin-left: 20px;
+    
+}
+
+.hero .text h2{
+    font-size: 55px;
+    color: #fd5f00;
+    margin-left: 20px;
+    
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    background-color: #fd5f00;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 1150px) {    
+
+    .hero {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 595px) {    
+
+    .hero-img img {
+
+        width: 400px;
+        height: 400px;
+        
+    }
+
+    .hero .text p{
+        font-size: 20px;
+        margin-left: 20px;
+        
+    }
+    
+    .hero .text h2{
+        font-size: 35px;
+        color: #fd5f00;
+        margin-left: 20px;
+        
+    }
+
+}
+
+
+footer {
+    background-color: #05004e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: -50px;
+}
+
+footer-info {
+    max-width: 950px;
+    margin: 0 auto;
+}
